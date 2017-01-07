@@ -291,7 +291,7 @@ var Circle = function () {
      */
 
     Circle.prototype.render = function render(context) {
-        context.fillStyle = "hsl(662, 100%, " + this.size * 4 + "%)";
+        context.fillStyle = "hsl(192, 100%, " + this.size * 4 + "%)";
         context.beginPath();
         context.arc(this.position.x, this.position.y, this.size, 0, TWO_PI);
         context.fill();
